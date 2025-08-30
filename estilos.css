@@ -1,0 +1,20 @@
+/* CSS DOCUMENT */
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Cambria";
+    src: url("fonts/cambriab.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Corbel";
+    src: url("fonts/corbelb.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Cambria", serif;
+}
