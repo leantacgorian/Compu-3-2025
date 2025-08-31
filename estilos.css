@@ -9,9 +9,9 @@
 }
 
 @font-face {
-    font-family: "Corbel";
-    src: url("fonts/corbelb.ttf") format("truetype");
-    font-weight: bold;
+    font-family: "Mont-Heavy";
+    src: url("fonts/Mont-HeavyDEMO.otf") format("truetype");
+    font-weight:bolder;
     font-style: normal;
 }
 
@@ -19,5 +19,26 @@ h1 {
     font-family: "Cambria", serif;
 }
 h2 {
-    font-family: "Corbel", sans-serif;
+    font-family: "Mont", sans-serif
+}
+/*aca  se aplican los colores y ubican los textos*/
+
+h1{
+    font-family:  "Cambria", serif;
+    color: rgb(17, 143, 59);
+}
+h2{
+    font-family: "Mont-Heavy", sans-serif;
+    color: aqua;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+h1,h2,p{
+    text-align:left;
 }
