@@ -1,50 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Primer TP</title>
-    <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8">
+  <title>CV - Leandro Tacgorian</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <h1>Curriculum Vitae</h1>
-            <h2>Leandro Tacgorian</h2>
-            <img src="img/asd.png" alt="Imagen de Curriculum" width="170" height="160">
-        </nav>
-    </header>
-    <main>
-        <section id="hero">
-            <h1>Un poco de Mi</h1>
-            <p>
-                Soy estudiante de Diseño y comunicación visual en la Universidad Nacional de Lanús.
-                Actualmente trabajando en una imprenta, haciendo diseños, impresiones y 
-                ediciones, expandiéndome un poco más en el área del diseño y adquiriendo la máxima
-                cantidad de experiencia para crecer más como diseñador.
-            </p>
-        </section>
-        <section id="info">
-            <h1>Datos Personales</h1>
-            <ul>
-                <li>Buen manejo de programas Adobe</li>
-                <li>Buen manejo de programa Corel Draw</li>
-                <li>Actualmente estudiando inglés</li>
-                <li>Buena habilidad de dibujo</li>
-            </ul>
-        </section>
-        <section id="trabajos">
-            <h1>Experiencia Laboral</h1>
-            <ul>
-                <li>2023 - Actualmente | Imprenta: Hago diseño, impresiones, anillado, laminado, plastificado, cortes, ediciones y atención al público.</li>
-                <li>2021 - 2023 | Taller Textil: Corte y terminación de prendas.</li>
-                <li>2018 - 2019 | Servicios Cinemark Hoyts: Atención al público, limpieza de salas y lentes 3D.</li>
-                <li>2017 | Servicios Cinema Adrogué: Atención al público, limpieza y recepción de público.</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>Cátedra Wischñevsky 2025</p>
-        <p>Leandro Tacgorian | Segundo Cuatrimestre | Computación 3 | Universidad Nacional de Lanús.</p>
-    </footer>
+  <header class="hero">
+    <div class="hero-content">
+      <img src="img/asd.png" alt="Foto de Leandro Tacgorian" class="foto-perfil">
+      <h1>Leandro Tacgorian</h1>
+      <p>Estudiante de Diseño y Comunicación Visual</p>
+    </div>
+  </header>
+
+<nav class="nav-grid">
+  <a href="#presentacion" class="nav-btn home">
+    <img src="img/Sobre mi.png" alt="icono sobre mi"> Sobre mí
+  </a>
+  <a href="#habilidades" class="nav-btn skills">
+    <img src="img/Habilidades.png" alt="icono habilidades"> Habilidades
+  </a>
+  <a href="#experiencia" class="nav-btn work">
+    <img src="img/Experiencia.png" alt="icono experiencia"> Experiencia
+  </a>
+  <a href="#contacto" class="nav-btn contact">
+    <img src="img/Contacto.png" alt="icono contacto"> Contacto
+  </a>
+</nav>
+
+
+  <main class="main-content">
+    <section id="presentacion" class="section">
+      <h2>Sobre mí</h2>
+      <p>&nbsp;</p>
+<p>
+      Soy estudiante de Diseño y Comunicación Visual en la Universidad Nacional de Lanús.
+      Actualmente trabajo en una imprenta haciendo diseños, impresiones y ediciones,
+      expandiéndome en el área del diseño y adquiriendo experiencia para crecer como diseñador.
+    </p>
+    </section>
+
+    <section id="habilidades" class="section">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Manejo de programas Adobe</li>
+        <li>Manejo de Corel Draw</li>
+        <li>Estudiante de inglés</li>
+        <li>Buena habilidad de dibujo</li>
+      </ul>
+    </section>
+
+    <section id="experiencia" class="section">
+      <h2>Experiencia Laboral</h2>
+      <article>
+        <h3>Imprenta</h3>
+        <p><em>2023 - Actualmente</em></p>
+        <p>Diseño, impresiones, anillado, laminado, plastificado, cortes, ediciones y atención al público.</p>
+      </article>
+      <article>
+        <h3>Taller Textil</h3>
+        <p><em>2021 - 2023</em></p>
+        <p>Corte y terminación de prendas.</p>
+      </article>
+      <article>
+        <h3>Cinemark Hoyts</h3>
+        <p><em>2018 - 2019</em></p>
+        <p>Atención al público, limpieza de salas y lentes 3D.</p>
+      </article>
+      <article>
+        <h3>Cinema Adrogué</h3>
+        <p><em>2017</em></p>
+        <p>Atención al público, limpieza y recepción de público.</p>
+      </article>
+    </section>
+
+    <section id="contacto" class="section">
+      <h2>Contacto</h2>
+      <ul>
+        <li><i class="fa fa-phone"></i> 11 1234-5678</li>
+        <li><i class="fa fa-envelope"></i> compu3@gmail.com</li>
+        <li><i class="fa fa-map-marker"></i> Av. Siempre viva, 123</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Computación 3 - Cátedra Wischñevsky 2025 - Universidad Nacional de Lanús</p>
+  </footer>
 </body>
 </html>
